@@ -1,4 +1,4 @@
-package jspider;
+package programming;
 
 public class EvenOrOddWithoutArithematic {
     public static void main(String[] args) {

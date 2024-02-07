@@ -1,4 +1,4 @@
-package jspider;
+package programming;
 
 public class Love6 {
   public static void main(String[] args) {

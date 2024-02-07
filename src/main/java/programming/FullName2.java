@@ -1,6 +1,6 @@
-package jspider;
+package programming;
 
-public class FullName1 {
+public class FullName2 {
     static String fName(String firstName) {
         return "$" + firstName;
     }
@@ -10,12 +10,12 @@ public class FullName1 {
     }
 
     static void fullName(String firstName, String lastName) {
-        System.out.println(firstName + " " + lastName);
+        String x = fName(firstName);
+        String y = lName(lastName);
+        System.out.println(x + " " + y);
     }
 
     public static void main(String[] args) {
-        String firstName = fName("Amresh");
-        String lastName = lName("Tripathy");
-        fullName(firstName, lastName);
+        fullName("Amresh", "Tripathy");
     }
 }

@@ -1,4 +1,4 @@
-package jspider;
+package programming;
 
 public class Percentage {
     static int total(int p, int c, int m, int o) {
